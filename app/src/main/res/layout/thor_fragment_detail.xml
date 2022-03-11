@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.CaptainAmericaFragmentDetail">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/thor_image" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="445dp"
+        android:text="Thor é filho de Odin (deus supremo de Asgard, o reino dos deuses) e de Jord (deusa de Midgard, o reino dos humanos, a Terra). Fruto do seu casamento com Sif, teve dois filhos, Lorride e Thrud. De outros relacionamentos, Thor teve outros dois filhos chamados Modi e Magni, sendo que este último herdou a força do pai."
+        android:textSize="30dp" />
+</LinearLayout>
